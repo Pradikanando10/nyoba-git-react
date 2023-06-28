@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import MyButton from "./components/MyButton";
+import Home from "./components/Home";
 
 function App() {
   const NavText = "Hello";
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Navbar test={NavText} />
+      <Home />
       <MyButton clicked={clicked} />
     </div>
   );
